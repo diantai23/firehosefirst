@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 header {
   border-top: 9px solid #222222;
@@ -6,4 +8,16 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+
 }

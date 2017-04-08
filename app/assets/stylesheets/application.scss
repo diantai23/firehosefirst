@@ -13,3 +13,50 @@
  *= require_tree .
  *= require_self
  */
+
+.circle {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    border-radius: 100%;
+    background: #df55fc;
+    border: 1px solid #df55fc;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    transform:rotate(11deg);
+    -ms-transform:rotate(11deg); /* IE 9 */
+    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.slogan {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 26px;
+}
+
+.links {
+  padding-top: 26px;
+}
+
+.links a {
+  color: black;
+  font-size: 23px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+
+
+
+
+
+
+
+

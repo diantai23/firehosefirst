@@ -6,27 +6,35 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   </head>
 
   <body>
     <header class="row">
       <div class="col-3">
-        LOGO
+        <div class="circle">
+         <br />
+          HANGRY
+          <br />
+          HIPPOS
+          <br />
+          EAT
+        </div>
       </div>
-      <div class ="col-4">
-        Splurting out unsolicited advice about entrepreneurship since 2016
+      <div class ="col-4 slogan">
+        Dishing out unsolicited advice about your next dinner since 2017
       </div>
-      <div class ="col-5">
+      <div class ="col-5 links">
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
       </div>
       <div>
         
       </div>
-
     </header>
- <br class="clear" />
-
+    <hr/>
+    <br class="clear" />
     <%= yield %>
   </body>
+
 </html>

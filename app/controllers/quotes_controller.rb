@@ -12,7 +12,10 @@ class QuotesController < ApplicationController
 
 ## Sends the saying and author parts to the database so they are saved
   def create
-    Quote.create(quote_params)
+    @quote = Quote.create(quote_params)
+    if @quote.invalid?
+      flash[:error] = '<strong>Could not save</strong> the data you entered is invalid.'
+    end
     redirect_to root_path
   end
 

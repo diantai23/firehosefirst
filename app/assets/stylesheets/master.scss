@@ -53,13 +53,26 @@ logo:hover {
   font-size: 20px;
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
 
+.modal {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
 
+h2 span {
+  color: #9f9fa0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
-
-
-
-
+::selection {
+  background-color: #e21f81;
+}
 
 
 

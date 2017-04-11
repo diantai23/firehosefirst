@@ -5,10 +5,7 @@ class QuotesController < ApplicationController
     @quote = Quote.order("RANDOM()").first
   end
 
-## Creates a new empty row for a new quote
-  def new
-    @quote = Quote.new
-  end
+
 
 ## Sends the saying and author parts to the database so they are saved
   def create

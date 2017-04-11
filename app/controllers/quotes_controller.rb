@@ -19,6 +19,11 @@ class QuotesController < ApplicationController
     redirect_to root_path
   end
 
+  def about
+    
+  end
+
+
   private
 
 ## Pulls the values of saying and author from the quotes form
